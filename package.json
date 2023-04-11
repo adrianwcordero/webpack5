@@ -1,0 +1,41 @@
+{
+  "name": "webpack5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.38.0",
+    "eslint-config-google": "^0.14.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.production.config.js",
+    "dev": "webpack serve --config webpack.dev.config.js --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianwcordero/webpack5.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianwcordero/webpack5/issues"
+  },
+  "homepage": "https://github.com/adrianwcordero/webpack5#readme"
+}
