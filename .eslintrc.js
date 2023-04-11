@@ -1,15 +1,14 @@
 /* eslint disable */
 module.exports = {
-  parser: "babel-eslint",
   env: {
     browser: true,
     es2021: true,
   },
-  extends: "google",
+  extends: 'google',
   overrides: [],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  rules: { "no-console": 0 },
+  rules: { 'no-console': 0, 'linebreak-style': 0 },
 };

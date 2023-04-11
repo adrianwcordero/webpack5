@@ -1,4 +1,4 @@
-import addImage from "./addImage.js";
-import "../css/photo.min.css";
+import addImage from './addImage.js';
+import '../css/photo.min.css';
 
 addImage();
